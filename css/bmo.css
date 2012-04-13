@@ -1,0 +1,251 @@
+*{ margin:0px; padding: 0px; }
+/*
+body {
+	font:20px Helvetica, arial,sans-serif;
+    width:auto;
+}
+
+#title {
+     margin:5px 0px 0px 5px;
+}
+
+#content {
+     position:absolute;
+     top:140px;
+     left:20px;
+	width:800px;
+     font:20px Helvetica, arial,sans-serif;
+padding-bottom:40px;
+}
+
+#content h1 {
+     font:24px normal Helvetica, arial,sans-serif;
+     margin:5px 0px 5px 0px;
+}
+#content h2 {
+     font:20px normal Helvetica, arial, sans-serif;
+     margin:5px 0px 5px 0px;
+}
+#content h3 {
+     font:16px normal Helvetica, arial, sans-serif;
+     margin:5px 0px 5px 0px;
+}
+.thermometers {
+     float:left;
+     width:300px;
+     margin:5px 20px 0px 5px;
+     text-align:center;
+}
+.thermometers canvas {
+     width:170px;
+     height:407px;
+     margin:auto;
+}
+.thermometer_title {
+	width:250px;
+	height:80px;
+	line-height:200px;
+}
+#profilelinks {
+	 display:none;
+	 position:absolute;
+	 top:40px;
+	 right:170px;
+     font-family:Helvetica, Arial, sans-serif;
+     float:left;
+     width:250px;
+     margin-right:10px;
+	 border:2px solid black;
+	 z-index:3;
+}
+#profilelinks ul {
+     list-style:none;
+     text-align:center;
+     width:250px;
+     background:#808080;
+     color:black;
+}
+#profilelinks ul li {
+	padding:1px;
+}
+#profilelinks ul li a{
+     display:block;
+     text-decoration:none;
+     color:white;
+}
+
+#profilelinks ul li:hover {
+     background:#404040;
+}
+
+#profilecontent {
+     font-family:Helvetica, Arial, sans-serif;
+     width:620px;
+     float:left;
+}
+#profile_info {
+	position:relative;
+	float:left;
+}
+#profile_info p {
+	font-size:16px;
+	margin-left:15px;
+}
+#name_card {
+     width:200px;
+     background-color:black;
+     color:white;
+	 padding:5px;
+     margin: 10px 10px 18px 10px;
+}
+#roster_tab {
+	position:absolute;
+	top:0px;
+	right:-125px;
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+#profile_text {
+     padding: 5px;
+     overflow:auto;
+     float:left;
+     font-size:16px;
+}
+#profile_photos {
+     float:left;
+}
+
+#profile_photos img {
+     margin:10px;
+}
+
+#slideshow {
+     width:500px;
+     height:400px;
+     float:left;
+     margin:10px;
+	 background-image:url('../images/spinner.gif');
+	 background-repeat:no-repeat;
+	 background-position:center;
+}
+#main_about {
+     width:800px;
+     display:block;
+	font-style:italic;
+	margin:5px;
+	
+}
+#twitter_widget {
+     float:left;
+     margin:10px;
+     z-index:-1000;
+}
+.activate {
+     background:url(/images/spinner.gif) 140px 9px no-repeat #eee;
+}
+.post {
+     font-size:16px;
+     width:600px;
+     margin:10px 0px 10px 0px;
+}
+.post_date {
+     color:white;
+     padding:3px;
+     background-color:#ea0000;
+}
+.post_content {
+     color:white;
+     padding:3px;
+     background-color:#333333;
+}
+#load-more {
+     margin-bottom:20px;
+}
+#about_bmo {
+     width:800px;
+}
+#newsletters h2{
+     margin-top:15px;
+}
+#newsletters {
+	margin-top:15px;
+}
+.tip_label {
+     color:#0000FF;
+     text-decoration:underline;
+     cursor:pointer;
+}
+.tip {
+	 display:none;
+     margin:10px 0px 10px 0px;
+     width:800px;
+     font-size:16px;
+}
+#tipofday {
+	padding-left:11px;
+     font-size:12px;
+     width:260px;
+}
+#tipofday #tip {
+ width:260px;
+ height:120px;
+overflow:auto;
+}
+#tipofday #tipdate {
+	padding-top:5px;
+     font-size:14px;
+}
+#tipofday #tipbody {
+     margin-top:5px;
+}
+#tipofday #tiplinks {
+}
+#tipofday #tiplinks a {
+	font-size:12px;
+	padding-left:8px;
+	text-decoration:none;
+}
+
+#galleria {
+	padding:5px;
+}
+
+#album_thumbs {
+     margin:5px 0px 0px 5px;
+}
+
+#album_thumbs .album_thumb {
+     float:left;
+     padding:10px;
+     text-align:center;
+}
+#album_thumbs .album_thumb img {
+     padding-bottom:5px;
+}
+.photosbyyear {
+	float:left;
+}
+
+.photosbyyear #galleria {
+	float:left;
+}
+
+.photosbyyear #years {
+	width:50px;
+	float:left;
+}
+.profileupload input {
+	margin:4px 0px 4px 0px;
+}
+.profileupload select {
+	margin:4px 0px 4px 0px;
+}
+.profileupload button {
+	margin:4px 0px 4px 0px;
+}
+label.error {
+	float: none;
+	color: red;
+	padding-left: .5em;
+}
+*/
