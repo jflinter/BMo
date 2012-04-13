@@ -1,0 +1,13 @@
+#content {
+	padding-left:15px;
+	font:18px Helvetica, arial,sans-serif;
+}
+table {
+	border-collapse:collapse;
+}
+table, tr, td {
+	border:1px solid black;
+}
+tr, td {
+	padding:3px;
+}

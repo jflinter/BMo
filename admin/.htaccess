@@ -1,0 +1,4 @@
+AuthUserFile /www/data/httpd/htdocs/Athletics/Mens_Ultimate/admin/.htpasswd
+AuthType Basic
+AuthName "Please Log In"
+Require valid-user
