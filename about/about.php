@@ -1,6 +1,6 @@
 <div id="about_bmo">
 <h1>About Brown Ultimate</h1>
-<img src="/Athletics/Mens_Ultimate/images/teamphotos/2011.jpg" alt="BMo 2011"" />
+<img src="/Athletics/Mens_Ultimate/images/teamphotos/2011.jpg" alt="BMo 2011" />
 <h2><a href="/Athletics/Mens_Ultimate/about/roster">2010-2011 Roster</a>
 
 <h2>Contact Information</h2>

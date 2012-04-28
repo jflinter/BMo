@@ -1,4 +1,16 @@
 *{ margin:0px; padding: 0px; }
+.footer {
+  margin-bottom:40px;
+}
+.page-header {
+  margin-bottom:10px;
+}
+#blogger_iframe {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  z-index: -1000;
+}
 /*
 body {
 	font:20px Helvetica, arial,sans-serif;

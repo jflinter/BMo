@@ -14,13 +14,12 @@ require([
   'libs/underscore-min',
 ], function(){
   require([
-    'http://widgets.twimg.com/j/2/widget.js',
     'libs/bootstrap.min',
     'order!libs/backbone-min',
     'order!ContentView',
     'order!ApplicationRouter',
     'order!app'
-  ], function(a,b,c,d,e, app){
+  ], function(a,b,c,d, app){
     // The "app" dependency is passed in as "App"
     // Again, the other dependencies passed in are not "AMD" therefore don't pass a parameter to this function
     app.init();
