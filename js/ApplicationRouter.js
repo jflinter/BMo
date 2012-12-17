@@ -6,6 +6,7 @@ var ApplicationRouter = Backbone.Router.extend({
     routes: {
         "": "home",
         "blog": "blog",
+        "schedule": "schedule",
         "about": "teamInfo",
         "links" : "links",
         "merchandise" : "merchandise",
@@ -39,7 +40,7 @@ var ApplicationRouter = Backbone.Router.extend({
 	 */
     setActiveEntry: function(url) {
         // Unmark all entries
-        $('.dropdown').removeClass('active');
+        $('.nav li').removeClass('active');
 
         // Mark active entry
         $("li a[href='" + url + "']").parents('li').addClass('active');
@@ -52,10 +53,14 @@ var ApplicationRouter = Backbone.Router.extend({
         this.setActiveEntry('#');
     },
 
+    schedule: function() {
+      this.switchView(new ContentView('_schedule'));
+      this.setActiveEntry('#schedule');
+    },
+
     blog: function() {
       this.switchView(new ContentView('_blog'), function(el) {
         resizeBlog = function() {
-          console.log($(window).width());
           $(el).find("#blogger_iframe").height($(window).height());
           $(el).find("#blogger_iframe").width($(window).width());
         }
